@@ -62,6 +62,11 @@ body{
     width: 70%;
     margin: 5% 10% 5% 14%
 }
+
+agm-map {
+    width: 70%;
+    height: 300px;
+  }
 @media(max-width:400px){
   
     h1{

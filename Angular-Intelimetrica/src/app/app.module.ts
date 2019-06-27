@@ -12,6 +12,9 @@ import { FilterComponent } from './components/filter/filter.component';
 
 //PIPES
 import { OrderPipe } from './pipes/order.pipe';
+import { MapaComponent } from './components/mapa/mapa.component';
+//Google maps
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -20,12 +23,16 @@ import { OrderPipe } from './pipes/order.pipe';
     NavbarComponent,
     CardsComponent,
     FilterComponent,
-    OrderPipe
+    OrderPipe,
+    MapaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAIpfYnp1LzWm9cI8OQbG3J_TnYMBbkIic'
+    })
   ],
   providers: [
    
