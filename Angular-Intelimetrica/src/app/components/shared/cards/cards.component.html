@@ -1,0 +1,16 @@
+<div class="row ">
+        <div class="col ">
+        <div  *ngFor=" let restaurant of arrRestaurants  "class="card text-dark bg-warning mb-3 card " style="max-width: 18rem;">
+            <img class="img-thumbnail img-circle" src="../../../assets/images/restaurant-3.jpg">
+        <h5 class="card-header">{{restaurant.name}}</h5>
+        <div class="card-body">
+            <h5>Address</h5>
+         <div class="card-title ">{{restaurant.address.city}}, {{restaurant.address.state}}, {{restaurant.address.street}}</div>
+         <h5 > Contact</h5>
+          <p class="card-text">{{restaurant.contact.email}}</p>
+          <p class="card-text">{{restaurant.contact.phone}}</p>
+          <a [href]="restaurant.contact.site" target="_blank">Web site</a>
+        </div>
+      </div>
+    </div>
+    </div>

@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Imprima&display=swap');
+
+.navbar{
+    font-family: 'Imprima', sans-serif;
+    font-size: 1.3em;
+  
+}
+h5{
+    text-align: center;
+    font-family: 'Imprima', sans-serif;
+}
+h1{
+    color:#EFC55B;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    font-size: 10em;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.navbar-dark .navbar-brand{
+    color:#EFC55B;
+    font-size: 1.6em;
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color:#EFC55B;
+    
+}
+.row {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding-top: 5em;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+  }
+  
+  .paralax-item {
+    max-width: 80%;
+    margin: 3% auto;
+    background: rgba(15, 4, 1, 0.8);
+    padding: 0.5em;
+    height: 80%;
+  }
+  .item-1 {
+    background-image: url('./assets/images/comida-saludable.jpg'); 
+   }  
+
+.card{
+    display:inline-block;
+    margin: 0% 2% 0% 2%;
+}
+.img-circle {
+    border-radius: 100%;
+    width: 70%;
+    margin: 5% 10% 5% 14%
+}
+@media(max-width:400px){
+  
+    h1{
+        font-size: 6em;
+    }
+    .paralax-item{
+        padding: 1.2em 0;
+    }
+}
