@@ -62,9 +62,25 @@ body{
     width: 70%;
     margin: 5% 10% 5% 14%
 }
+.puntero{
+    cursor: pointer;
+}
+.modal-content{
+    background-color: #343a40;
+    color: #EFC55B;
+}
+.close{
+    color:white;
+}
+button{
+    margin: 3% 4%
+}
+.fb-like{
+    margin:4%
+}
 
 agm-map {
-    width: 70%;
+    width: 90%;
     height: 300px;
   }
 @media(max-width:400px){

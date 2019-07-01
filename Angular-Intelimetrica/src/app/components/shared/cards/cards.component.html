@@ -1,6 +1,6 @@
 <div class="row ">
         <div class="col ">
-        <div  *ngFor=" let restaurant of arrRestaurants  "class="card text-dark bg-warning mb-3 card " style="max-width: 18rem;">
+        <div *ngFor=" let restaurant of arrRestaurants let index = index "class="card text-dark bg-warning mb-3 card puntero " style="max-width: 18rem;">
             <img class="img-thumbnail img-circle" src="../../../assets/images/restaurant-3.jpg">
         <h5 class="card-header">{{restaurant.name}}</h5>
         <div class="card-body">
@@ -9,8 +9,14 @@
          <h5 > Contact</h5>
           <p class="card-text">{{restaurant.contact.email}}</p>
           <p class="card-text">{{restaurant.contact.phone}}</p>
+          <p class="card-text">Rating: {{restaurant.rating}}</p>
           <a [href]="restaurant.contact.site" target="_blank">Web site</a>
-        </div>
+
+            <app-mapa [indexRestaurant]="index" ></app-mapa>
+            
+            <div class="fb-like " data-href="https://intelimetrica.firebaseapp.com/home" data-width="10px" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+         
+          </div>
       </div>
     </div>
     </div>

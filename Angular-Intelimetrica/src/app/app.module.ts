@@ -9,12 +9,15 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { CardsComponent } from './components/shared/cards/cards.component';
 import { FilterComponent } from './components/filter/filter.component';
+import { MapaComponent } from './components/mapa/mapa.component';
 
 //PIPES
 import { OrderPipe } from './pipes/order.pipe';
-import { MapaComponent } from './components/mapa/mapa.component';
+import { OrderRaitingPipe } from './pipes/order-raiting.pipe';
+
 //Google maps
 import { AgmCoreModule } from '@agm/core';
+import { RaitingComponent } from './components/raiting/raiting.component';
 
 @NgModule({
   declarations: [
@@ -25,13 +28,15 @@ import { AgmCoreModule } from '@agm/core';
     FilterComponent,
     OrderPipe,
     MapaComponent,
+    RaitingComponent,
+    OrderRaitingPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAIpfYnp1LzWm9cI8OQbG3J_TnYMBbkIic'
+      apiKey: 'AIzaSyC3uUbVPl8r6XDlcbyqU9h4Mxu9JNK_Mas'
     })
   ],
   providers: [
