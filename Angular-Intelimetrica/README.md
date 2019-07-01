@@ -21,6 +21,9 @@ En este proyecto trabaje con estas historias de usuario y las complete.
 * Bootstrap 
 * Angular-maps para implementar Google Maps y mostrar la ubicación de cada restaurante.
 
+## Planeación
+
+Se implementa Github Proyects para hacer el tablero kanban con las historias de usuario que se trabajaron para este proyecto.
 
 ## Propuesta de Diseño 
 Una barra de navegación fija para que el usuario pueda acceder a cada una de las secciones en cualquier momento. 
