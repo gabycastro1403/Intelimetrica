@@ -17,7 +17,7 @@ En este proyecto trabaje con estas historias de usuario y las complete.
 
 ## Construido con
 
-* Angular 7
+* Angular 8
 * Bootstrap 
 * Angular-maps para implementar Google Maps y mostrar la ubicación de cada restaurante.
 
@@ -36,7 +36,36 @@ Es single page aplication lo que lo hace más rápida, ya que en lugar de cargar
 Esta dividida en componentes y esto hace que se use menos codigo para pintar las tarjetas donde se muestran toda la información de los restaurantes.
 
 
+### Pantalla de Bienvenida
+![Bienvenida](./src/assets/images/melp-readme.png)
+Se hace la propuesta de la pantalla de bienvenida, con efecto paralax en la imagen. Es sencilla y elegante y se muestra la barra de navegación fija para que el usuario pueda acceder a cualquiera de las secciones.
 
+### Tarjetas con información
+![Trajetas](./src/assets/images/tarjetas-melp.png)
+
+
+En la primer iteración se mostraba la información a los usuarios en estas tarjetas de Bootstrap y se añade una imagen para que sea más visual y atractivo para los usuarios.
+
+![tarjetas](./src/assets/images/tarjetas-masp.png)
+
+
+En la segunda iteración se muestra la ubicación de cada uno de los restaurantes dentro de las tarjetas para que sea más accesible para los usuarios. Google Maps tiene una cuota de peticiones al día cuando es gratuito es por eso que muestra el mensaje dentro del mapa "for development purposes only".
+
+### Barra de navegación
+
+En la barra de navegación se muestran las secciones:
+* Order A-Z
+* Order Rating
+
+
+En estas secciones se muestran las mismas tarjetas pero ordenadas de acuerdo a la elección del usuario.
+
+
+## Autores 
+Gabriela Jazmín Castro Guzmán
+
+## Gratitud
+Gracias por considerarme para realizar la propuesta de la página web.
 
 
 
